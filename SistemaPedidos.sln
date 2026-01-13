@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePedidos.Api", "src\MobilePedidos.Api\MobilePedidos.Api.csproj", "{9D55C6A3-001E-45E0-BB51-5E7977491703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePedidos.Domain", "src\MobilePedidos.Domain\MobilePedidos.Domain.csproj", "{A8A54AB9-7127-4400-A9B7-AADA267FF767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePedidos.Application", "src\MobilePedidos.Application\MobilePedidos.Application.csproj", "{E17C5082-1927-42E4-932F-4F6028CE8E9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePedidos.Infraestructure", "src\MobilePedidos.Infraestructure\MobilePedidos.Infraestructure.csproj", "{49003B9D-C73E-4AC2-AA8E-99FCA3889D64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePedidos.Shared", "src\MobilePedidos.Shared\MobilePedidos.Shared.csproj", "{DF372EB3-63E9-4157-ACF6-B71F30FA7C30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePedidos.Application.Tests", "MobilePedidos.Application.Tests\MobilePedidos.Application.Tests.csproj", "{718D21FE-C760-4EB4-A08C-A48A470DBC0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D55C6A3-001E-45E0-BB51-5E7977491703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D55C6A3-001E-45E0-BB51-5E7977491703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D55C6A3-001E-45E0-BB51-5E7977491703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D55C6A3-001E-45E0-BB51-5E7977491703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8A54AB9-7127-4400-A9B7-AADA267FF767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A54AB9-7127-4400-A9B7-AADA267FF767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A54AB9-7127-4400-A9B7-AADA267FF767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A54AB9-7127-4400-A9B7-AADA267FF767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17C5082-1927-42E4-932F-4F6028CE8E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17C5082-1927-42E4-932F-4F6028CE8E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17C5082-1927-42E4-932F-4F6028CE8E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17C5082-1927-42E4-932F-4F6028CE8E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49003B9D-C73E-4AC2-AA8E-99FCA3889D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49003B9D-C73E-4AC2-AA8E-99FCA3889D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49003B9D-C73E-4AC2-AA8E-99FCA3889D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49003B9D-C73E-4AC2-AA8E-99FCA3889D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF372EB3-63E9-4157-ACF6-B71F30FA7C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF372EB3-63E9-4157-ACF6-B71F30FA7C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF372EB3-63E9-4157-ACF6-B71F30FA7C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF372EB3-63E9-4157-ACF6-B71F30FA7C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{718D21FE-C760-4EB4-A08C-A48A470DBC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{718D21FE-C760-4EB4-A08C-A48A470DBC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{718D21FE-C760-4EB4-A08C-A48A470DBC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{718D21FE-C760-4EB4-A08C-A48A470DBC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{718D21FE-C760-4EB4-A08C-A48A470DBC0B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+EndGlobal
